@@ -1,84 +1,123 @@
 <!doctype html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <title>Oven Documents</title>
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="chrome=1">
+		<title>Oven Documents</title>
 
-    <link rel="stylesheet" href="stylesheets/styles.css">
-    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-    <!--[if lt IE 9]>
-    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-  </head>
-  <body>
-      <header>
-        <h1>Oven</h1>
-        <p>
-            프로토타입 툴 Oven의 사용가이드 및 매뉴얼 입니다 
-            <br>
-            <a href="javascript:;">http://oven.daum.net</a>
-        </p>
-        <hr>
-        <nav>
-            <h4>Introduction</h4>
-            <ul>
-                <li><a href="#aboutOven">오븐 프로젝트에 대해</a></li>
-            </ul>
-            <h4>Manual</h4>
-            <h5>Account</h5>
-            <ul>
-                <li><a href="#Introduction">계정 만들기</a></li>
-                <li><a href="#Introduction">로그인</a></li>
-                <li><a href="#Introduction">비밀번호 찾기</a></li>
-                <li><a href="#Introduction">계정 설정하기</a></li>
-                <li><a href="#Introduction">이메일 인증받기</a></li>
-                <li><a href="#Introduction">계정 업그레이드</a></li>
-                <li><a href="#Introduction">계정 삭제</a></li>
-            </ul>
-            <h5>Dashboard</h5>
-            <ul>
-                <li><a href="#Introduction">프로젝트 만들기</a></li>
-                <li><a href="#Introduction">프로젝트 목록</a></li>
-                <li><a href="#Introduction">프로젝트 관리</a></li>
-                <li><a href="#Introduction">공유받은 프로젝트</a></li>
-                <li><a href="#Introduction">프로젝트 검색</a></li>
-            </ul>
-            <h5>Builder</h5>
-            <ul>
-                <li><a href="#Introduction">프로젝트 빌더 실행</a></li>
-                <li><a href="#Introduction">페이지 목록</a></li>
-                <li><a href="#Introduction">편집 캔버스</a></li>
-                <li><a href="#Introduction">오브젝트 목록</a></li>
-                <li><a href="#Introduction">상단 메뉴바</a></li>
-                <li><a href="#Introduction">퀵 메뉴</a></li>
-            </ul>
-            <h5>Web View</h5>
-            <ul>
-                <li><a href="#Introduction">웹으로 보기</a></li>
-                <li><a href="#Introduction">컨트롤</a></li>
-            </ul>
-        </nav>
-      <br>
-      <hr>
-      <p>
-          <small><a href="https://github.com/oven-tool/docs">Github으로 도움말 작성에 참여해주세요 <small>oven-tool/docs</small></a></small>
-      </p>
-      </header>
-      <section>
-<pre><code>/*
-이 문서는 Github을 통한 공동 작업으로 편집, 운영됩니다!
+		<link rel="stylesheet" href="stylesheets/styles.css">
+		<link rel="stylesheet" href="stylesheets/pygment_trac.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+		<!--[if lt IE 9]>
+		<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->
+	</head>
+	<body>
+		<header>
+			<h1>Oven</h1>
+			<p>
+				프로토타입 툴 Oven의 사용가이드 및 매뉴얼 입니다
+			</p>
+			<hr>
+			<nav>
+				<h4>Introduction</h4>
+				<ul>
+					<li><a href="#aboutOven">오븐 프로젝트에 대해</a></li>
+				</ul>
+				<h4>Manual</h4>
+				<h5>Account</h5>
+				<ul>
+					<li><a href="#createAccount">계정 만들기</a></li>
+					<li><a href="#login">로그인</a></li>
+					<li><a href="#findPassword">비밀번호 찾기</a></li>
+					<li><a href="#changeUsername">유저이름 변경하기</a></li>
+					<li><a href="">이메일 인증받기</a></li>
+					<li><a href="">계정 업그레이드</a></li>
+					<li><a href="">계정 삭제</a></li>
+				</ul>
+				<h5>Project</h5>
+				<ul>
+					<li><a href="">프로젝트 만들기</a></li>
+					<li><a href="">프로젝트 목록</a></li>
+					<li><a href="">프로젝트 관리</a></li>
+					<li><a href="">공유받은 프로젝트</a></li>
+					<li><a href="">프로젝트 검색</a></li>
+				</ul>
+				<h5>Editor</h5>
+				<ul>
+					<li><a href="">프로젝트 빌더 실행</a></li>
+					<li><a href="">페이지 목록</a></li>
+					<li><a href="">편집 캔버스</a></li>
+					<li><a href="">오브젝트 목록</a></li>
+					<li><a href="">상단 메뉴바</a></li>
+					<li><a href="">퀵 메뉴</a></li>
+				</ul>
+				<h5>Web View</h5>
+				<ul>
+					<li><a href="">웹으로 보기</a></li>
+					<li><a href="">컨트롤</a></li>
+				</ul>
+			</nav>
+			<br>
+			<hr>
+			<p>
+				<small><a href="https://github.com/oven-tool/docs">Github으로 도움말 작성에 참여해주세요 <small>oven-tool/docs</small></a></small>
+			</p>
+		</header>
+		<section>
+<pre>이 도움말 페이지는 Github을 통한 공동 작업으로 편집, 운영됩니다!
 따라서 항목에 따라 아직 내용이 준비되어 있지 않을 수 있습니다.
-github.com/oven-tool/docs에서 도움말 작성에 참여해주세요.
-*/</code></pre>
-        <h2>Introduction</h2>
-        <h3 id="aboutOven">오븐 프로젝트에 대해</h3>
-        <p>Oven은 Daum의 HTML5기술팀이 제공하는 웹기반 프로토타입 툴입니다.</p>
+github.com/oven-tool/docs에서 도움말 작성에 참여해주세요.</pre>
+			<br>
+			<img src="./images/oven.png" alt="Oven">
+			<br>
+			<br>
+			<h1>Introduction</h1>
+			<h2 id="aboutOven">오븐 프로젝트에 대해</h2>
+			<p>
+				Oven은 DaumKAKAO의 HTML5기술팀이 제공하는 웹기반 프로토타입 툴입니다.<br>
+				사내에서 사용되던 프로토타입툴을 새롭게 발전시킨 툴이며, 외부 버전에서는 별도의 이메일 계정 기반으로 운영이 됩니다.
+			</p>
+			<hr>
+			<h1>Manual</h1>
+			<h2>Account</h2>
+			<h3 id="createAccount">계정 만들기</h3>
+			<p>
+				첫화면의 '새 계정 만들기' 링크를 클릭하여 계정을 등록할 수 있습니다.
+				계정 가입은 이메일 주소 기반으로 이루어지며, 차후에 '계정 설정'화면에서 이메일 인증 등을 통해 변경할 수 있습니다.
+				그리고 처음 가입 시에는 인증이 되지 않은 상태로 가입이 되며, 누구나 Free 계정으로 등록이 됩니다.
+				Free 계정에서는 계정 당 30개 혹은 30MB의 이미지 저장공간을 할당받게 되는데, 이메일 인증을 하게 되면 자동으로 Standard 계정으로 업그레이드 됩니다.(100개/100MB로 증가)
+			</p>
 
+			<h3 id="login">로그인</h3>
+			<p>
+				계정가입 당시 등록한 이메일주소와 비밀번호를 기반으로 로그인할 수 있습니다. 만일 비밀번호가 기억나지 않으면 '비밀번호를 잊으셨나요?' 링크를 클릭하여 비밀번호 찾기 과정을 진행할 수 있습니다.
+				<br>
+				그리고 로그인 시에 '로그인 상태 유지'를 체크하게 되면, 다음부터 해당 PC와 브라우저에서는 별도의 로그인 입력을 받지 않습니다.
+				하지만 비밀번호 변경, 유저이름 변경 등 사용자 정보가 변경되었다는 것이 확인되면, 기존의 '로그인 상태유지'가 유지되던 PC에서도 다시 로그인 입력을 요구할 수 있습니다.
+			</p>
 
-      </section>
-    <script src="javascripts/scale.fix.js"></script>
-    
-  </body>
+			<h3 id="findPassword">비밀번호 찾기</h3>
+			<p>
+				로그인 화면에서 '비밀번호를 잊으셨나요?'링크를 클릭하면 비밀번호 초기화 요청 페이지로 이동할 수 있습니다.
+				해당 페이지에서 계정등록 당시에 입력했던 이메일주소를 입력하고 '제출하기'를 클릭하세요. 그러면 비밀번호를 초기화할 수 있는 1회용 인증 링크가 담긴 메일이 해당 주소로 전달됩니다.
+				(이메일이 몇 분 이내에 나타나지 않을 경우 스팸 폴더를 확인하시기 바랍니다.)
+				<br>
+				메일을 확인하고 해당 링크를 클릭하게 되면 비밀번호 초기화 페이지가 나타날 것입니다. 여기서 비밀번호를 다시 설정해주세요.
+			</p>
+
+			<h3 id="changeUsername">유저이름 변경하기</h3>
+			<p>
+				로그인 후 우측상단의 유저이름이 표시된 메뉴의 '계정 설정하기' 링크를 클릭하면 '내 계정 정보' 화면으로 이동할 수 있습니다.
+				이 페이지에서 사용하고자 하는 유저이름으로 변경해주세요. 다른 유저와 중복되어도 상관없습니다.
+			</p>
+
+			<br>
+			<hr>
+			<br>
+			<img src="./images/bread.png" alt="bread">
+		</section>
+		<script src="javascripts/scale.fix.js"></script>
+
+	</body>
 </html>
